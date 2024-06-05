@@ -1,3 +1,60 @@
 body{
-    background-color: rgb(157, 157, 240);
+    color: white;
+    background-image: url(tablet1.png);
+    background-size: contain;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+button{
+    cursor: pointer; 
+    transition: opacity 0.3s; 
+}
+
+h1 {
+    font-size: 26px;
+}
+
+form, .content{
+    color: white; 
+    width: 300px;
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 10px; 
+    width: -webkit-fill-available;
+}
+
+
+input {
+    border: none; 
+}
+
+
+button:active {
+    opacity: 0.8;
+}
+
+button[disabled] {
+    opacity: 0.8; 
+}
+
+.rec {
+    background: transparent; 
+    border: none; 
+    color: white; 
+}
+
+.reg, .enter, .sobre, .back{
+    background: transparent; 
+    color: white; /
 }
