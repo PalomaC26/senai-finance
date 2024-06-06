@@ -14,13 +14,18 @@ body{
 button{
     cursor: pointer; 
     transition: opacity 0.3s; 
+    margin-bottom: 10px; 
+    padding: 10px;
+    width: -webkit-fill-available;
+    background-color: transparent;
+    color: white;
 }
 
 h1 {
     font-size: 26px;
 }
 
-form, .content{
+ .content{
     color: white; 
     width: 300px;
     margin: 0 auto; 
@@ -28,33 +33,28 @@ form, .content{
     padding: 20px; 
 }
 
-input, button {
+input {
     padding: 10px;
     margin-bottom: 10px; 
-    width: -webkit-fill-available;
 }
 
-
-input {
-    border: none; 
-}
-
-
-button:active {
-    opacity: 0.8;
-}
-
-button[disabled] {
-    opacity: 0.8; 
-}
-
-.rec {
-    background: transparent; 
-    border: none; 
+.container{
     color: white; 
+    width: 300px;
+    margin: 0 auto; 
+    text-align: center; 
+    padding: 10px; 
+    width: 300px;
 }
 
-.reg, .enter, .sobre, .back{
-    background: transparent; 
-    color: white; /
+.custos td tr{
+ width: 100%;
+ border: 1px solid;
+ 
 }
+
+
+
+
+
+
